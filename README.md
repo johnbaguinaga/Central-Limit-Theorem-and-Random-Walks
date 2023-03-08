@@ -1,6 +1,6 @@
 # Central Limit Theorem and Random Walks
 
-### Introduction:
+### Introduction
 The central limit theorem (CLT), in probability theory, states that adding together independent random variables will result in a sum that is properly normalized and tends towards a normal distribution or a "bell curve" even if the original variables are not normally distributed.   
 
 To better understand the theorem, we can illustrate a scenario where 100 uniform random numbers are generated and summed to create a single number. This process is repeated 1000 times, resulting in 1000 sums of 100 uniform random numbers. According to the theorem, if a histogram is plotted using the values of these 1000 sums, the resulting distribution will closely resemble a normal distribution. The resemblance to a bell-shaped distribution will become more readily apparent as the number of sums increases (ie. 100000 instead of 1000 sums). Thus, reason for this project was to demonstrate the central limit theorem using *Python* and a couple of its libraries, *NumPy* and *Matplotlib*.
@@ -8,7 +8,7 @@ To better understand the theorem, we can illustrate a scenario where 100 uniform
 In order to properly demonstrate the CLT, we will code up a 'Random Walk'. A random walk is a randomly made path that is made up of random steps on some space. For our example we will create a random walk on the integer number line which starts at 0, and at each step moves +1 or −1 with equal probability. We will be displaying it on a one-dimensional space. 
 <p>&nbsp;</p> 
 
-### Code:
+### Code
 *Creating a function that intakes two parameter arguments, number of steps and the start position:*
 
 ```
@@ -133,7 +133,7 @@ plt.show()
 
 <p>&nbsp;</p>
 
-### Conclusion:  
+### Conclusion  
 It becomes obvious that a Gaussian distribution is being displayed as we increase the number of simulations of random walks within our function.
 
 At the beginning, it is difficult to tell whether the histogram distribution is by chance or if values are actually converging towards a bell-shape. However, with the understanding of the central limit theorem and our continual increments of the values within the simulations and the simulations themselves, we were able to display the effect of the CLT in a digestible manner.
