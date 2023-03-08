@@ -136,4 +136,4 @@ plt.show()
 ### Conclusion  
 It becomes obvious that a Gaussian distribution is being displayed as we increase the number of simulations of random walks within our function.
 
-At the beginning, it is difficult to tell whether the histogram distribution is by chance or if values are actually converging towards a bell-shape. However, with the understanding of the central limit theorem and our continual increments of the values within the simulations and the simulations themselves, we were able to display the effect of the CLT in a digestible manner.
+At the beginning, it is difficult to tell whether the histogram distribution is by chance or if values are actually converging towards a bell-shape. However, with our understanding of the central limit theorem and the continual increments of the values within the simulations and the simulations themselves, we were able to display the effect of the CLT in a digestible manner.
