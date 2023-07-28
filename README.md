@@ -1,3 +1,8 @@
+<p align="center">
+ <img src="https://github.com/johnbaguinaga/Central-Limit-Theorem-and-Random-Walks/assets/106455858/7a5a2c23-2156-49a7-8117-4d658ab6fb05" width="500" height="185">
+</p>
+
+  
 # Central Limit Theorem and Random Walks
 
 ### Introduction
